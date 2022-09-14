@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React To Do List
 
-## Available Scripts
+This project is a todo list built with react. It has functionalities like creating, deleting and viewing a todo.
 
-In the project directory, you can run:
+## Features implemented so far are
 
-### `npm start`
+- Set up Linters
+- Project Setup with React Installations
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- Linters
 
-### `npm test`
+## Live Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+The basic requirements for building the executable are:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- A working browser application i.e Google chrome
+- VSCode or any other text editor. 
+- Install node package manager(npm).
+- Have git installed.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run eject`
+### Cloning the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone  https://github.com/TekyRey/React-Tutorial.git <Your-Build-Directory>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+cd <Your-Build-Directory> 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+## Getting packages and dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To get all package modules required to build the project run:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install
+```
 
-### Code Splitting
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Building
 
-### Analyzing the Bundle Size
+To build the project run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+npm run build
+```
 
-### Making a Progressive Web App
+after you run this successfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Running
 
-### Advanced Configuration
+To run the program on a browser through a server run this command in your cli
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
+npm start
+```
 
-### Deployment
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Run tests
 
-### `npm run build` fails to minify
+For tracking linters errors locally, you need to follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- For tracking linter errors in CSS file run:
+
+```
+npx stylelint "**/*.{css,scss}"
+```
+
+- For tracking linter errors in Javascript file run:
+
+```
+npx eslint .
+```
+
+## 🤝 Contributing
+
+Feel free to check the [issues page](../../issues/).
+
+👤 **Rehema Mwaka**
+
+- GitHub: [@githubhandle](https://github.com/TekyRey)
+
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rehema-mwaka-48a1801ab/)
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
